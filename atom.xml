@@ -5,9 +5,9 @@
   <subtitle>DBA MySQL Oracle</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://xmysql.github.io/"/>
+  <link href="https://blog.xmysql.com/"/>
   <updated>2019-10-21T05:12:12.063Z</updated>
-  <id>https://xmysql.github.io/</id>
+  <id>https://blog.xmysql.com/</id>
   
   <author>
     <name>Charles Yang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://xmysql.github.io/20191021/hello-world/"/>
-    <id>https://xmysql.github.io/20191021/hello-world/</id>
+    <link href="https://blog.xmysql.com/20191021/hello-world/"/>
+    <id>https://blog.xmysql.com/20191021/hello-world/</id>
     <published>2019-10-21T01:32:09.079Z</published>
     <updated>2019-10-21T05:12:12.063Z</updated>
     
