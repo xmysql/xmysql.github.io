@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xmysql.com/"/>
-  <updated>2019-10-22T05:53:40.425Z</updated>
+  <updated>2019-10-22T06:08:39.763Z</updated>
   <id>https://blog.xmysql.com/</id>
   
   <author>
@@ -17,9 +17,85 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>mongodb1</title>
+    <link href="https://blog.xmysql.com/20191022/mongodb1/"/>
+    <id>https://blog.xmysql.com/20191022/mongodb1/</id>
+    <published>2019-10-22T06:08:02.000Z</published>
+    <updated>2019-10-22T06:08:39.763Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="mongodb" scheme="https://blog.xmysql.com/categories/mongodb/"/>
+    
+    
+      <category term="mongodb" scheme="https://blog.xmysql.com/tags/mongodb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis1</title>
+    <link href="https://blog.xmysql.com/20191022/redis1/"/>
+    <id>https://blog.xmysql.com/20191022/redis1/</id>
+    <published>2019-10-22T06:07:19.000Z</published>
+    <updated>2019-10-22T06:07:50.579Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="redis" scheme="https://blog.xmysql.com/categories/redis/"/>
+    
+    
+      <category term="redis" scheme="https://blog.xmysql.com/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>oracle1</title>
+    <link href="https://blog.xmysql.com/20191022/oracle1/"/>
+    <id>https://blog.xmysql.com/20191022/oracle1/</id>
+    <published>2019-10-22T06:06:35.000Z</published>
+    <updated>2019-10-22T06:07:11.723Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="oracle" scheme="https://blog.xmysql.com/categories/oracle/"/>
+    
+    
+      <category term="oracle" scheme="https://blog.xmysql.com/tags/oracle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql1</title>
+    <link href="https://blog.xmysql.com/20191022/mysql1/"/>
+    <id>https://blog.xmysql.com/20191022/mysql1/</id>
+    <published>2019-10-22T06:05:31.000Z</published>
+    <updated>2019-10-22T06:06:09.222Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="mysql" scheme="https://blog.xmysql.com/categories/mysql/"/>
+    
+    
+      <category term="mysql" scheme="https://blog.xmysql.com/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
     <title>mongodb</title>
-    <link href="https://blog.xmysql.com/mongodb/"/>
-    <id>https://blog.xmysql.com/mongodb/</id>
+    <link href="https://blog.xmysql.com/20191022/mongodb/"/>
+    <id>https://blog.xmysql.com/20191022/mongodb/</id>
     <published>2019-10-22T05:52:55.000Z</published>
     <updated>2019-10-22T05:53:40.425Z</updated>
     
@@ -37,8 +113,8 @@
   
   <entry>
     <title>redis</title>
-    <link href="https://blog.xmysql.com/redis/"/>
-    <id>https://blog.xmysql.com/redis/</id>
+    <link href="https://blog.xmysql.com/20191022/redis/"/>
+    <id>https://blog.xmysql.com/20191022/redis/</id>
     <published>2019-10-22T05:52:28.000Z</published>
     <updated>2019-10-22T05:53:08.325Z</updated>
     
@@ -56,8 +132,8 @@
   
   <entry>
     <title>oracle</title>
-    <link href="https://blog.xmysql.com/oracle/"/>
-    <id>https://blog.xmysql.com/oracle/</id>
+    <link href="https://blog.xmysql.com/20191022/oracle/"/>
+    <id>https://blog.xmysql.com/20191022/oracle/</id>
     <published>2019-10-22T02:26:43.000Z</published>
     <updated>2019-10-22T05:51:55.880Z</updated>
     
@@ -75,8 +151,8 @@
   
   <entry>
     <title>mysql</title>
-    <link href="https://blog.xmysql.com/mysql/"/>
-    <id>https://blog.xmysql.com/mysql/</id>
+    <link href="https://blog.xmysql.com/20191022/mysql/"/>
+    <id>https://blog.xmysql.com/20191022/mysql/</id>
     <published>2019-10-22T02:26:33.000Z</published>
     <updated>2019-10-22T05:51:36.532Z</updated>
     
@@ -94,8 +170,8 @@
   
   <entry>
     <title>xmysql</title>
-    <link href="https://blog.xmysql.com/xmysql/"/>
-    <id>https://blog.xmysql.com/xmysql/</id>
+    <link href="https://blog.xmysql.com/20191021/xmysql/"/>
+    <id>https://blog.xmysql.com/20191021/xmysql/</id>
     <published>2019-10-21T08:14:49.000Z</published>
     <updated>2019-10-21T08:16:13.037Z</updated>
     
@@ -111,8 +187,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://blog.xmysql.com/hello-world/"/>
-    <id>https://blog.xmysql.com/hello-world/</id>
+    <link href="https://blog.xmysql.com/20191021/hello-world/"/>
+    <id>https://blog.xmysql.com/20191021/hello-world/</id>
     <published>2019-10-21T07:48:59.185Z</published>
     <updated>2019-10-21T07:48:59.185Z</updated>
     
