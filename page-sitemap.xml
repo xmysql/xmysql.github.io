@@ -9,7 +9,14 @@
     
     <url>
         <loc>https://blog.xmysql.com/404.html</loc>
-        <lastmod>2019-10-22T01:25:02.273Z</lastmod>
+        <lastmod>2019-10-22T01:34:32.123Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.xmysql.com/about.html</loc>
+        <lastmod>2019-10-22T01:33:05.734Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
