@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.xmysql.com/20191022/mongodb1/</loc>
+    <loc>https://blog.xmysql.com/20191022/mongodb1.html</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/20191022/redis1/</loc>
+    <loc>https://blog.xmysql.com/20191022/redis1.html</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/20191022/oracle1/</loc>
+    <loc>https://blog.xmysql.com/20191022/oracle1.html</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/20191022/mysql1/</loc>
+    <loc>https://blog.xmysql.com/20191022/mysql1.html</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/20191022/mongodb/</loc>
+    <loc>https://blog.xmysql.com/20191022/mongodb.html</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/20191022/redis/</loc>
+    <loc>https://blog.xmysql.com/20191022/redis.html</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/20191022/oracle/</loc>
+    <loc>https://blog.xmysql.com/20191022/oracle.html</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/20191022/mysql/</loc>
+    <loc>https://blog.xmysql.com/20191022/mysql.html</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/20191021/xmysql/</loc>
+    <loc>https://blog.xmysql.com/20191021/xmysql.html</loc>
     <lastmod>2019-10-21</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/20191021/hello-world/</loc>
+    <loc>https://blog.xmysql.com/20191021/hello-world.html</loc>
     <lastmod>2019-10-21</lastmod>
   </url>
 </urlset>
