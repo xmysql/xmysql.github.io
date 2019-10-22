@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.xmysql.com/undefined/20191022/mysql/</loc>
+    <loc>https://blog.xmysql.com/mysql/</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/undefined/20191022/oracle/</loc>
+    <loc>https://blog.xmysql.com/oracle/</loc>
     <lastmod>2019-10-22</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/undefined/20191021/xmysql/</loc>
+    <loc>https://blog.xmysql.com/xmysql/</loc>
     <lastmod>2019-10-21</lastmod>
   </url>  <url>
-    <loc>https://blog.xmysql.com/undefined/20191021/hello-world/</loc>
+    <loc>https://blog.xmysql.com/hello-world/</loc>
     <lastmod>2019-10-21</lastmod>
   </url>
 </urlset>
