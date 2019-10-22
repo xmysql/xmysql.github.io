@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Charles Blog</title>
   
-  <subtitle>DBA MySQL Oracle</subtitle>
+  <subtitle>DBA MySQL Oracle Python</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xmysql.com/"/>
