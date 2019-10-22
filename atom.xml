@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xmysql.com/"/>
-  <updated>2019-10-21T08:16:13.037Z</updated>
+  <updated>2019-10-22T02:27:45.890Z</updated>
   <id>https://blog.xmysql.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>oracle</title>
+    <link href="https://blog.xmysql.com/20191022/oracle/"/>
+    <id>https://blog.xmysql.com/20191022/oracle/</id>
+    <published>2019-10-22T02:26:43.000Z</published>
+    <updated>2019-10-22T02:27:45.890Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="oracle" scheme="https://blog.xmysql.com/tags/oracle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql</title>
+    <link href="https://blog.xmysql.com/20191022/mysql/"/>
+    <id>https://blog.xmysql.com/20191022/mysql/</id>
+    <published>2019-10-22T02:26:33.000Z</published>
+    <updated>2019-10-22T02:28:08.578Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="mysql" scheme="https://blog.xmysql.com/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>xmysql</title>
