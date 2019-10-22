@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://blog.xmysql.com/20191022/python1.html</loc>
+        <lastmod>2019-10-22T07:09:21.197Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xmysql.com/20191022/python.html</loc>
+        <lastmod>2019-10-22T07:09:08.029Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://blog.xmysql.com/20191022/mongodb1.html</loc>
         <lastmod>2019-10-22T06:08:39.763Z</lastmod>
         <changefreq>weekly</changefreq>

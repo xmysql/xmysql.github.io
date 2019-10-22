@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xmysql.com/"/>
-  <updated>2019-10-22T06:08:39.763Z</updated>
+  <updated>2019-10-22T07:09:21.197Z</updated>
   <id>https://blog.xmysql.com/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python1</title>
+    <link href="https://blog.xmysql.com/20191022/python1.html"/>
+    <id>https://blog.xmysql.com/20191022/python1.html</id>
+    <published>2019-10-22T07:08:24.000Z</published>
+    <updated>2019-10-22T07:09:21.197Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://blog.xmysql.com/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://blog.xmysql.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python</title>
+    <link href="https://blog.xmysql.com/20191022/python.html"/>
+    <id>https://blog.xmysql.com/20191022/python.html</id>
+    <published>2019-10-22T07:08:21.000Z</published>
+    <updated>2019-10-22T07:09:08.029Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://blog.xmysql.com/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://blog.xmysql.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>mongodb1</title>
