@@ -8,6 +8,34 @@
     </url>
     
     <url>
+        <loc>https://blog.xmysql.com/redis/redis1.html</loc>
+        <lastmod>2019-10-22T05:37:58.079Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.xmysql.com/mongodb/mongdb1.html</loc>
+        <lastmod>2019-10-22T05:37:57.263Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.xmysql.com/oracle/oracle1.html</loc>
+        <lastmod>2019-10-22T05:37:56.427Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.xmysql.com/mysql/mysql1.html</loc>
+        <lastmod>2019-10-22T05:37:55.575Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://blog.xmysql.com/redis/</loc>
         <lastmod>2019-10-22T02:25:41.653Z</lastmod>
         <changefreq>weekly</changefreq>
