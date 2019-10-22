@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    <url>
+        <loc>https://blog.xmysql.com</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
 
     <url>
-        <loc>https://blog.xmysql.com/tags/mongodb/</loc>
+        <loc>https://blog.xmysql.com/categories/mongodb/</loc>
         <lastmod>2019-10-22T05:53:40.425Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://blog.xmysql.com/tags/redis/</loc>
+        <loc>https://blog.xmysql.com/categories/redis/</loc>
         <lastmod>2019-10-22T05:53:08.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://blog.xmysql.com/tags/oracle/</loc>
+        <loc>https://blog.xmysql.com/categories/oracle/</loc>
         <lastmod>2019-10-22T05:51:55.880Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://blog.xmysql.com/tags/mysql/</loc>
+        <loc>https://blog.xmysql.com/categories/mysql/</loc>
         <lastmod>2019-10-22T05:51:36.532Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://blog.xmysql.com/tags/xmysql/</loc>
-        <lastmod>2019-10-21T08:16:13.037Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xmysql.com/"/>
-  <updated>2019-10-22T02:27:45.890Z</updated>
+  <updated>2019-10-22T05:53:40.425Z</updated>
   <id>https://blog.xmysql.com/</id>
   
   <author>
@@ -17,16 +17,56 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>oracle</title>
-    <link href="https://blog.xmysql.com/oracle/"/>
-    <id>https://blog.xmysql.com/oracle/</id>
-    <published>2019-10-22T02:26:43.000Z</published>
-    <updated>2019-10-22T02:27:45.890Z</updated>
+    <title>mongodb</title>
+    <link href="https://blog.xmysql.com/mongodb/"/>
+    <id>https://blog.xmysql.com/mongodb/</id>
+    <published>2019-10-22T05:52:55.000Z</published>
+    <updated>2019-10-22T05:53:40.425Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="mongodb" scheme="https://blog.xmysql.com/categories/mongodb/"/>
+    
+    
+      <category term="mongodb" scheme="https://blog.xmysql.com/tags/mongodb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis</title>
+    <link href="https://blog.xmysql.com/redis/"/>
+    <id>https://blog.xmysql.com/redis/</id>
+    <published>2019-10-22T05:52:28.000Z</published>
+    <updated>2019-10-22T05:53:08.325Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="redis" scheme="https://blog.xmysql.com/categories/redis/"/>
+    
+    
+      <category term="redis" scheme="https://blog.xmysql.com/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>oracle</title>
+    <link href="https://blog.xmysql.com/oracle/"/>
+    <id>https://blog.xmysql.com/oracle/</id>
+    <published>2019-10-22T02:26:43.000Z</published>
+    <updated>2019-10-22T05:51:55.880Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="oracle" scheme="https://blog.xmysql.com/categories/oracle/"/>
     
     
       <category term="oracle" scheme="https://blog.xmysql.com/tags/oracle/"/>
@@ -38,12 +78,14 @@
     <link href="https://blog.xmysql.com/mysql/"/>
     <id>https://blog.xmysql.com/mysql/</id>
     <published>2019-10-22T02:26:33.000Z</published>
-    <updated>2019-10-22T02:53:30.861Z</updated>
+    <updated>2019-10-22T05:51:36.532Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="mysql" scheme="https://blog.xmysql.com/categories/mysql/"/>
     
     
       <category term="mysql" scheme="https://blog.xmysql.com/tags/mysql/"/>

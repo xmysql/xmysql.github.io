@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://blog.xmysql.com/redis/index-1.html</loc>
+        <lastmod>2019-10-22T05:52:15.284Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://blog.xmysql.com/redis/redis1.html</loc>
         <lastmod>2019-10-22T05:37:58.079Z</lastmod>
         <changefreq>weekly</changefreq>

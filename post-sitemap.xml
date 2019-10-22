@@ -8,8 +8,16 @@
     </url>
 
     <url>
-        <loc>https://blog.xmysql.com/mysql/</loc>
-        <lastmod>2019-10-22T02:53:30.861Z</lastmod>
+        <loc>https://blog.xmysql.com/mongodb/</loc>
+        <lastmod>2019-10-22T05:53:40.425Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xmysql.com/redis/</loc>
+        <lastmod>2019-10-22T05:53:08.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +25,15 @@
 
     <url>
         <loc>https://blog.xmysql.com/oracle/</loc>
-        <lastmod>2019-10-22T02:27:45.890Z</lastmod>
+        <lastmod>2019-10-22T05:51:55.880Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xmysql.com/mysql/</loc>
+        <lastmod>2019-10-22T05:51:36.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

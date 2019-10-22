@@ -4,17 +4,22 @@
 
     <sitemap>
         <loc>https://blog.xmysql.com/post-sitemap.xml</loc>
-        <lastmod>2019-10-22T02:53:30.861Z</lastmod>
+        <lastmod>2019-10-22T05:53:40.425Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://blog.xmysql.com/page-sitemap.xml</loc>
-        <lastmod>2019-10-22T05:37:58.079Z</lastmod>
+        <lastmod>2019-10-22T05:52:15.284Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://blog.xmysql.com/category-sitemap.xml</loc>
+        <lastmod>2019-10-22T05:53:40.425Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://blog.xmysql.com/tag-sitemap.xml</loc>
-        <lastmod>2019-10-22T02:53:30.861Z</lastmod>
+        <lastmod>2019-10-22T05:53:40.425Z</lastmod>
     </sitemap>
 
 </sitemapindex>
