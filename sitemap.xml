@@ -4,7 +4,7 @@
 
     <sitemap>
         <loc>https://blog.xmysql.com/post-sitemap.xml</loc>
-        <lastmod>2020-05-29T09:12:33.526Z</lastmod>
+        <lastmod>2020-05-29T09:14:54.674Z</lastmod>
     </sitemap>
 
     <sitemap>
@@ -14,12 +14,12 @@
 
     <sitemap>
         <loc>https://blog.xmysql.com/category-sitemap.xml</loc>
-        <lastmod>2020-05-29T09:12:33.526Z</lastmod>
+        <lastmod>2020-05-29T09:14:54.674Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://blog.xmysql.com/tag-sitemap.xml</loc>
-        <lastmod>2020-05-29T09:12:33.526Z</lastmod>
+        <lastmod>2020-05-29T09:14:54.674Z</lastmod>
     </sitemap>
 
 </sitemapindex>
