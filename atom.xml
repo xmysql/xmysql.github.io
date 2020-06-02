@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xmysql.com/"/>
-  <updated>2020-06-02T07:58:12.482Z</updated>
+  <updated>2020-06-02T08:16:57.493Z</updated>
   <id>https://blog.xmysql.com/</id>
   
   <author>
@@ -18,12 +18,27 @@
   
   <entry>
     <title>Python基础之注释</title>
+    <link href="https://blog.xmysql.com/20200602/Python%E5%9F%BA%E7%A1%80%E4%B9%8B%E6%B3%A8%E9%87%8A-1.html"/>
+    <id>https://blog.xmysql.com/20200602/Python基础之注释-1.html</id>
+    <published>2020-06-02T08:16:57.000Z</published>
+    <updated>2020-06-02T08:16:57.493Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Python基础之注释</title>
     <link href="https://blog.xmysql.com/20200602/Python%E5%9F%BA%E7%A1%80%E4%B9%8B%E6%B3%A8%E9%87%8A.html"/>
     <id>https://blog.xmysql.com/20200602/Python基础之注释.html</id>
     <published>2020-06-02T07:51:49.000Z</published>
-    <updated>2020-06-02T07:58:12.482Z</updated>
+    <updated>2020-06-02T08:17:51.549Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Python基础之注释"><a href="#Python基础之注释" class="headerlink" title="Python基础之注释"></a>Python基础之注释</h2><p>在Python中注释分为单行注释、多行注释和特殊注释。注释便于他人理解你的代码逻辑或函数的功能。<br>Python解释器会读取注释，但会跳过不运行。<br><br/></p><ul><li><h4 id="特殊注释"><a href="#特殊注释" class="headerlink" title="特殊注释"></a>特殊注释</h4>与Python解释器有关。<br/>+ 告诉操作系统在哪个路径下找Python编译器  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br></pre></td></tr></table></figure>+ 告诉Python编译器使用哪种字符串编码<br/>  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#-*-coding:utf-8-*-</span></span><br></pre></td></tr></table></figure><br/></li><li><h4 id="单行注释（行注释）"><a href="#单行注释（行注释）" class="headerlink" title="单行注释（行注释）"></a>单行注释（行注释）</h4>单个<code>#</code>井号<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 被注释的内容</span></span><br></pre></td></tr></table></figure><br/></li><li><h4 id="多行注释（块注释）：推荐使用三对双引号的方式"><a href="#多行注释（块注释）：推荐使用三对双引号的方式" class="headerlink" title="多行注释（块注释）：推荐使用三对双引号的方式"></a>多行注释（块注释）：<strong><em>推荐使用三对双引号的方式</em></strong></h4>一般用于函数、方法、生成器、类做注释。<br/>+ 多行注释的两种方式：  1. 三对单引号`'''`     有时使用三对单引号的注释会报错，也不规范。     <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'''</span></span><br><span class="line"><span class="string">被注释的内容</span></span><br><span class="line"><span class="string">'''</span></span><br></pre></td></tr></table></figure><br/>  2. 三对双引号`"""`     <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">被注释的内容</span></span><br><span class="line"><span class="string">"""</span></span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Python基础之注释"><a href="#Python基础之注释" class="headerlink" title="Python基础之注释"></a>Python基础之注释</h2><p>在Python中注释分为单行注释、多行注释和特殊注释。注释便于他人理解你的代码逻辑或函数的功能。<br>Python解释器会读取注释，但会跳过不运行。</p><ul><li><h4 id="特殊注释"><a href="#特殊注释" class="headerlink" title="特殊注释"></a>特殊注释</h4><p>与Python解释器有关。</p><ul><li><p>告诉操作系统在哪个路径下找Python编译器</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br></pre></td></tr></table></figure></li><li><p>告诉Python编译器使用哪种字符串编码</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#-*-coding:utf-8-*-</span></span><br></pre></td></tr></table></figure></li></ul></li></ul><ul><li><h4 id="单行注释（行注释）"><a href="#单行注释（行注释）" class="headerlink" title="单行注释（行注释）"></a>单行注释（行注释）</h4>单个<code>#</code>井号<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 被注释的内容</span></span><br></pre></td></tr></table></figure></li></ul><ul><li><h4 id="多行注释（块注释）：推荐使用三对双引号的方式"><a href="#多行注释（块注释）：推荐使用三对双引号的方式" class="headerlink" title="多行注释（块注释）：推荐使用三对双引号的方式"></a>多行注释（块注释）：<strong><em>推荐使用三对双引号的方式</em></strong></h4><p>一般用于函数、方法、生成器、类做注释。</p><ul><li>多行注释的两种方式：</li></ul><ol><li><p>三对单引号<code>&#39;&#39;&#39;</code><br>有时使用三对单引号的注释会报错，也不规范。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'''</span></span><br><span class="line"><span class="string">被注释的内容</span></span><br><span class="line"><span class="string">'''</span></span><br></pre></td></tr></table></figure></li><li><p>三对双引号<code>&quot;&quot;&quot;</code></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">被注释的内容</span></span><br><span class="line"><span class="string">"""</span></span><br></pre></td></tr></table></figure></li></ol></li></ul>]]></content>
     
     <summary type="html">
     

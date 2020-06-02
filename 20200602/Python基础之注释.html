@@ -54,15 +54,15 @@ var _hmt = _hmt || [];
   <link rel="dns-prefetch" href="https://blog.xmysql.com">
   <title>Python基础之注释 | Charles Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Python基础之注释在Python中注释分为单行注释、多行注释和特殊注释。注释便于他人理解你的代码逻辑或函数的功能。Python解释器会读取注释，但会跳过不运行。  特殊注释与Python解释器有关。 + 告诉操作系统在哪个路径下找Python编译器   1#!&#x2F;usr&#x2F;bin&#x2F;env python + 告诉Python编译器使用哪种字符串编码    1#-*-coding:utf-8-*-">
+  <meta name="description" content="Python基础之注释在Python中注释分为单行注释、多行注释和特殊注释。注释便于他人理解你的代码逻辑或函数的功能。Python解释器会读取注释，但会跳过不运行。  特殊注释与Python解释器有关。  告诉操作系统在哪个路径下找Python编译器 1#!&#x2F;usr&#x2F;bin&#x2F;env python  告诉Python编译器使用哪种字符串编码 1#-*-coding:utf-8-*-">
 <meta name="keywords" content="python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python基础之注释">
 <meta property="og:url" content="https:&#x2F;&#x2F;blog.xmysql.com&#x2F;20200602&#x2F;Python%E5%9F%BA%E7%A1%80%E4%B9%8B%E6%B3%A8%E9%87%8A.html">
 <meta property="og:site_name" content="Charles Blog">
-<meta property="og:description" content="Python基础之注释在Python中注释分为单行注释、多行注释和特殊注释。注释便于他人理解你的代码逻辑或函数的功能。Python解释器会读取注释，但会跳过不运行。  特殊注释与Python解释器有关。 + 告诉操作系统在哪个路径下找Python编译器   1#!&#x2F;usr&#x2F;bin&#x2F;env python + 告诉Python编译器使用哪种字符串编码    1#-*-coding:utf-8-*-">
+<meta property="og:description" content="Python基础之注释在Python中注释分为单行注释、多行注释和特殊注释。注释便于他人理解你的代码逻辑或函数的功能。Python解释器会读取注释，但会跳过不运行。  特殊注释与Python解释器有关。  告诉操作系统在哪个路径下找Python编译器 1#!&#x2F;usr&#x2F;bin&#x2F;env python  告诉Python编译器使用哪种字符串编码 1#-*-coding:utf-8-*-">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-06-02T07:58:12.482Z">
+<meta property="og:updated_time" content="2020-06-02T08:17:51.549Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Charles Blog" type="application/atom+xml">
@@ -264,25 +264,42 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Python基础之注释"><a href="#Python基础之注释" class="headerlink" title="Python基础之注释"></a>Python基础之注释</h2><p>在Python中注释分为单行注释、多行注释和特殊注释。注释便于他人理解你的代码逻辑或函数的功能。<br>Python解释器会读取注释，但会跳过不运行。<br><br/></p>
+        <h2 id="Python基础之注释"><a href="#Python基础之注释" class="headerlink" title="Python基础之注释"></a>Python基础之注释</h2><p>在Python中注释分为单行注释、多行注释和特殊注释。注释便于他人理解你的代码逻辑或函数的功能。<br>Python解释器会读取注释，但会跳过不运行。</p>
 <ul>
-<li><h4 id="特殊注释"><a href="#特殊注释" class="headerlink" title="特殊注释"></a>特殊注释</h4>与Python解释器有关。<br/>
-+ 告诉操作系统在哪个路径下找Python编译器
-  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br></pre></td></tr></table></figure>
-+ 告诉Python编译器使用哪种字符串编码
-<br/>
-  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#-*-coding:utf-8-*-</span></span><br></pre></td></tr></table></figure>
-<br/></li>
+<li><h4 id="特殊注释"><a href="#特殊注释" class="headerlink" title="特殊注释"></a>特殊注释</h4><p>与Python解释器有关。</p>
+<ul>
+<li><p>告诉操作系统在哪个路径下找Python编译器</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>告诉Python编译器使用哪种字符串编码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#-*-coding:utf-8-*-</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+</li>
+</ul>
+<ul>
 <li><h4 id="单行注释（行注释）"><a href="#单行注释（行注释）" class="headerlink" title="单行注释（行注释）"></a>单行注释（行注释）</h4>单个<code>#</code>井号<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 被注释的内容</span></span><br></pre></td></tr></table></figure>
-<br/></li>
-<li><h4 id="多行注释（块注释）：推荐使用三对双引号的方式"><a href="#多行注释（块注释）：推荐使用三对双引号的方式" class="headerlink" title="多行注释（块注释）：推荐使用三对双引号的方式"></a>多行注释（块注释）：<strong><em>推荐使用三对双引号的方式</em></strong></h4>一般用于函数、方法、生成器、类做注释。<br/>
-+ 多行注释的两种方式：
-  1. 三对单引号`'''`
-     有时使用三对单引号的注释会报错，也不规范。
-     <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'''</span></span><br><span class="line"><span class="string">被注释的内容</span></span><br><span class="line"><span class="string">'''</span></span><br></pre></td></tr></table></figure>
-<br/>
-  2. 三对双引号`"""`
-     <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">被注释的内容</span></span><br><span class="line"><span class="string">"""</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><h4 id="多行注释（块注释）：推荐使用三对双引号的方式"><a href="#多行注释（块注释）：推荐使用三对双引号的方式" class="headerlink" title="多行注释（块注释）：推荐使用三对双引号的方式"></a>多行注释（块注释）：<strong><em>推荐使用三对双引号的方式</em></strong></h4><p>一般用于函数、方法、生成器、类做注释。</p>
+<ul>
+<li>多行注释的两种方式：</li>
+</ul>
+<ol>
+<li><p>三对单引号<code>&#39;&#39;&#39;</code><br>有时使用三对单引号的注释会报错，也不规范。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'''</span></span><br><span class="line"><span class="string">被注释的内容</span></span><br><span class="line"><span class="string">'''</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>三对双引号<code>&quot;&quot;&quot;</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">被注释的内容</span></span><br><span class="line"><span class="string">"""</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
 </li>
 </ul>
 
@@ -432,6 +449,15 @@ var _hmt = _hmt || [];
 
   
 <nav id="article-nav">
+  
+    <a href="/20200602/Python%E5%9F%BA%E7%A1%80%E4%B9%8B%E6%B3%A8%E9%87%8A-1.html" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Python基础之注释
+        
+      </div>
+    </a>
   
   
     <a href="/20200602/Python%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%B8%B8%E9%87%8F.html" id="article-nav-older" class="article-nav-link-wrap">
