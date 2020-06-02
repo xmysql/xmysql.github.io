@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xmysql.com/"/>
-  <updated>2020-06-02T02:37:53.424Z</updated>
+  <updated>2020-06-02T04:25:43.720Z</updated>
   <id>https://blog.xmysql.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python基础之变量</title>
+    <link href="https://blog.xmysql.com/20200602/Python%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%8F%98%E9%87%8F.html"/>
+    <id>https://blog.xmysql.com/20200602/Python基础之变量.html</id>
+    <published>2020-06-02T04:25:03.000Z</published>
+    <updated>2020-06-02T04:25:43.720Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Python基础之变量"><a href="#Python基础之变量" class="headerlink" title="Python基础之变量"></a>Python基础之变量</h2><p>程序运行时将中间结果保存到内存中（变量），以便后续的代码调用。<br>创建变量时会在内存中开辟一个空间用于存储变量的值。<br>Python解释器会基于变量的数据类型分配内存空间。变量可以指定不同的数据类型，可以存储整数，小数或字符。</p><ul><li><h4 id="变量赋值（变量声明）"><a href="#变量赋值（变量声明）" class="headerlink" title="变量赋值（变量声明）"></a>变量赋值（变量声明）</h4><p>Python中的变量不需要类型声明。<br>每个变量必须在使用前赋值，根据赋值的数据类型来确定变量的数据类型（分配内存空间），所以给变量赋值以后变量才会被创建（变量声明）。<br>通过<code>=</code>等号运算符给变量赋值：</p><ul><li>等号运算符左边是变量名。</li><li>等号运算符右边是变量的值。</li></ul><p>变量赋值示例：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">'Charles'</span></span><br></pre></td></tr></table></figure></li><li><h4 id="多个变量赋值"><a href="#多个变量赋值" class="headerlink" title="多个变量赋值"></a>多个变量赋值</h4><p>Python允许同时给多个变量赋值。</p><ul><li>多个变量赋值方式一：<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a = b = c = <span class="number">1</span></span><br></pre></td></tr></table></figure></li><li>多个变量赋值方式二：<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">name, age, job = <span class="string">'Charles'</span>, <span class="number">30</span>, <span class="string">'DBA'</span></span><br></pre></td></tr></table></figure></li></ul></li><li><h4 id="变量的命名规则"><a href="#变量的命名规则" class="headerlink" title="变量的命名规则"></a>变量的命名规则</h4><ol><li>变量名只能是字母、数字、下划线的任意组合。推荐以字母开头。</li><li>变量的第一个字符不能是数字。</li><li>变量名不能是Python的关键字。<br><font color=red>and、as、assert、break、class、continue、def、del、elif、else、except、exec、finally、for、from、global、if、import、in、is、lambda、not、or、pass、print、raise、return、try、while、with、yield</font></li><li>变量名必须见名知意、不要使用中文、不要使用拼音、不要混合使用英文与拼音、变量名过长。</li></ol><ul><li><p>变量命名方式：推荐下划线</p><ul><li><p>下划线命名法(UnderScoreCase)：（<strong>推荐</strong>）<br>变量名中的每一个逻辑断点都用一个下划线来标记。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">my_first_name = <span class="string">'Charles'</span></span><br><span class="line">my_last_name = <span class="string">'Yang'</span></span><br></pre></td></tr></table></figure></li><li><p>驼峰命名法(CamelCase)：</p><ul><li><p>小驼峰法：第一个单词以小写字母开始，第二个单词的首字母大写。除第一个单词之外，其他单词首字母大写。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">myFirstName = <span class="string">'Charles'</span></span><br><span class="line">myLastName = <span class="string">'Yang'</span></span><br></pre></td></tr></table></figure></li><li><p>大驼峰法：<br>即帕斯卡命名法，每一个单词的首字母都采用大写字母。常用于类名，属性，命名空间等。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">MyFirstName</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">MyLastName</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure></li></ul></li></ul></li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Python基础之变量&quot;&gt;&lt;a href=&quot;#Python基础之变量&quot; class=&quot;headerlink&quot; title=&quot;Python基础之变量&quot;&gt;&lt;/a&gt;Python基础之变量&lt;/h2&gt;&lt;p&gt;程序运行时将中间结果保存到内存中（变量），以便后续的代码调用。&lt;br
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://blog.xmysql.com/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://blog.xmysql.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>Python介绍</title>
