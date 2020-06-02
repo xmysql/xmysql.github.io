@@ -243,6 +243,122 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Python基础之常量" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+        
+        <center><p>
+  
+    <h1 itemprop="name">
+      <a class="article-title_code_ant" href="/20200602/Python%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%B8%B8%E9%87%8F.html">Python基础之常量</a>
+    </h1>
+  
+</p></center>
+        
+        <a href="/20200602/Python%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%B8%B8%E9%87%8F.html" class="archive-article-date">
+  	<time datetime="2020-06-02T07:21:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-02</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Python基础之常量"><a href="#Python基础之常量" class="headerlink" title="Python基础之常量"></a>Python基础之常量</h2><p>在Python中没有一个专门的语法代表常量，但约定俗成用变量名全部大写的变量代表常量。<br>Python中没有真正的常量，为了迎合其他语言的口味，全部大写的变量称之为常量。</p>
+<p>Python的常量必须满足两个条件：</p>
+<ol>
+<li>命名全部为大写</li>
+<li>值一旦被绑定便不可再修改</li>
+</ol>
+<p>C</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> * <span class="keyword">const</span> pi</span><br></pre></td></tr></table></figure>
+
+<p>Python</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PI = <span class="number">3.14</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>用自定义类实现常量与使用：<br>引用博客：<a href="https://blog.csdn.net/qq_17034717/article/details/81942059" target="_blank" rel="noopener">https://blog.csdn.net/qq_17034717/article/details/81942059</a></p>
+<ul>
+<li><p>用自定义类实现常量：const.py</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="comment"># python 3.x</span></span><br><span class="line"><span class="comment"># Filename:const.py</span></span><br><span class="line"><span class="comment"># 定义一个常量类实现常量的功能</span></span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="comment"># 该类定义了一个方法__setattr()__,和一个异常ConstError, ConstError类继承 </span></span><br><span class="line"><span class="comment"># 自类TypeError. 通过调用类自带的字典__dict__, 判断定义的常量是否包含在字典 </span></span><br><span class="line"><span class="comment"># 中。如果字典中包含此变量，将抛出异常，否则，给新创建的常量赋值。 </span></span><br><span class="line"><span class="comment"># 最后两行代码的作用是把const类注册到sys.modules这个全局字典中。</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">_const</span>:</span></span><br><span class="line">    <span class="class"><span class="keyword">class</span> <span class="title">ConstError</span><span class="params">(TypeError)</span>:</span><span class="keyword">pass</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__setattr__</span><span class="params">(self,name,value)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> name <span class="keyword">in</span> self.__dict__:</span><br><span class="line">            <span class="keyword">raise</span> self.ConstError(<span class="string">"Can't rebind const (%s)"</span> %name)</span><br><span class="line">        self.__dict__[name]=value</span><br><span class="line">        </span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">sys.modules[__name__]=_const()</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在项目中引用常量</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> const</span><br><span class="line">const.PI=<span class="number">3.14</span></span><br><span class="line">print(const.PI)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+
+      
+
+
+
+
+  <div class="declare" hidden="hidden"></div>
+
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/python//" class="article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/20200602/Python%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%B8%B8%E9%87%8F.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Python基础之变量" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -277,7 +393,7 @@ var _hmt = _hmt || [];
 </li>
 <li><h4 id="多个变量赋值"><a href="#多个变量赋值" class="headerlink" title="多个变量赋值"></a>多个变量赋值</h4><p>Python允许同时给多个变量赋值。</p>
 <ul>
-<li>多个变量赋值方式一：<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a = b = c = <span class="number">1</span></span><br></pre></td></tr></table></figure></li>
+<li>多个变量赋值方式一：<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = b = c = <span class="number">1</span></span><br><span class="line"></span><br><span class="line">name1 = <span class="string">'Charles'</span></span><br><span class="line">name2 = name</span><br></pre></td></tr></table></figure></li>
 <li>多个变量赋值方式二：<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">name, age, job = <span class="string">'Charles'</span>, <span class="number">30</span>, <span class="string">'DBA'</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
@@ -1385,98 +1501,6 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-oracle1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-        
-        <center><p>
-  
-    <h1 itemprop="name">
-      <a class="article-title_code_ant" href="/20191022/oracle1.html">oracle1</a>
-    </h1>
-  
-</p></center>
-        
-        <a href="/20191022/oracle1.html" class="archive-article-date">
-  	<time datetime="2019-10-22T06:06:35.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-22</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-
-
-
-
-  <div class="declare" hidden="hidden"></div>
-
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">oracle</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/oracle//" class="article-tag-list-link color2">oracle</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/20191022/oracle1.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
       <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next; &amp;raquo</a>
@@ -1605,11 +1629,11 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">other</a>
+                <a href="javascript:void(0)" class="js-tag color2">python</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">python</a>
+                <a href="javascript:void(0)" class="js-tag color1">other</a>
               </li>
              
               <li class="article-tag-list-item">
