@@ -3,8 +3,8 @@
 
 
     <url>
-        <loc>https://blog.xmysql.com/tags/Python%25E5%259F%25BA%25E7%25A1%2580/</loc>
-        <lastmod>2020-05-29T09:16:52.271Z</lastmod>
+        <loc>https://blog.xmysql.com/tags/python/</loc>
+        <lastmod>2020-06-02T01:02:47.697Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -12,13 +12,6 @@
     <url>
         <loc>https://blog.xmysql.com/tags/other/</loc>
         <lastmod>2020-05-29T08:16:29.953Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://blog.xmysql.com/tags/python/</loc>
-        <lastmod>2020-05-29T08:15:48.369Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

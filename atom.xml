@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xmysql.com/"/>
-  <updated>2020-05-29T09:16:52.271Z</updated>
+  <updated>2020-06-02T01:02:47.697Z</updated>
   <id>https://blog.xmysql.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.xmysql.com/20200529/Python%E5%9F%BA%E7%A1%80%E4%B9%8BPython%E8%A7%A3%E9%87%8A%E5%99%A8%E5%AE%89%E8%A3%85.html"/>
     <id>https://blog.xmysql.com/20200529/Python基础之Python解释器安装.html</id>
     <published>2020-05-29T08:10:44.000Z</published>
-    <updated>2020-05-29T09:16:52.271Z</updated>
+    <updated>2020-06-02T01:02:47.697Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Python基础之Python解释器安装-Windows"><a href="#Python基础之Python解释器安装-Windows" class="headerlink" title="Python基础之Python解释器安装(Windows)"></a>Python基础之Python解释器安装(Windows)</h2><p>Python官网：<a href="https://www.python.org/" target="_blank" rel="noopener">https://www.python.org/</a></p><p>版本选择：<a href="https://www.python.org/downloads/windows/" target="_blank" rel="noopener">https://www.python.org/downloads/windows/</a><br>Python 3.6.8 - Dec. 24, 2018<br>python-3.6.8-amd64.exe Download Windows x86-64 executable installer</p><p>Download URL：<a href="https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe" target="_blank" rel="noopener">https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe</a></p><ol><li><p>添加环境变量<br><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_01.png" alt="d01_Install_Python_01"></p></li><li><p>自定义安装<br><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_02.png" alt="d01_Install_Python_02"></p></li><li><p>选择安装Python文档<br><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_03.png" alt="d01_Install_Python_03"></p></li><li><p>自定义安装路径<br><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_04.png" alt="d01_Install_Python_04"></p></li><li><p>安装完成<br><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_05.png" alt="d01_Install_Python_05"></p></li><li><p>手动添加环境变量</p><ul><li><strong>用户变量</strong><ul><li>添加Python 3.6.8的python.exe路径与Scripts脚本路径</li><li>添加Python 2.7.16的python.exe路径与Scripts脚本路径<br><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_06.png" alt="d01_Install_Python_06"></li></ul></li><li><strong>系统变量</strong><ul><li>添加Python 3.6.8的python.exe路径与Scripts脚本路径</li><li>添加Python 2.7.16的python.exe路径与Scripts脚本路径<br><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_07.png" alt="d01_Install_Python_07"></li></ul></li></ul></li><li><p>命令行验证安装是否成功<br><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_08.png" alt="d01_Install_Python_08"></p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\charl&gt;python</span><br><span class="line">Python <span class="number">3.6</span>.<span class="number">8</span> (tags/v3.<span class="number">6.8</span>:<span class="number">3</span>c6b436a57, Dec <span class="number">24</span> <span class="number">2018</span>, <span class="number">00</span>:<span class="number">16</span>:<span class="number">47</span>) [MSC v.<span class="number">1916</span> <span class="number">64</span> bit (AMD64)] on win32</span><br><span class="line">Type <span class="string">"help"</span>, <span class="string">"copyright"</span>, <span class="string">"credits"</span> or <span class="string">"license"</span> <span class="keyword">for</span> more information.</span><br></pre></td></tr></table></figure></li><li><p>运行第一个Python代码<br>C:\pycode\hello_world.py</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">'Hello World!'</span>)</span><br></pre></td></tr></table></figure><p><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_09.png" alt="d01_Install_Python_09"></p><p>cmd</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\charl&gt;cd c:\pycode</span><br><span class="line"></span><br><span class="line">c:\pycode&gt;python hello_world.py</span><br><span class="line">Hello World!</span><br></pre></td></tr></table></figure><p><img src="http://cdn.xnginx.com/pyimage/d01_Install_Python_10.png" alt="d01_Install_Python_10"></p></li></ol>]]></content>
     
@@ -38,7 +38,7 @@
       <category term="python" scheme="https://blog.xmysql.com/categories/python/"/>
     
     
-      <category term="Python基础" scheme="https://blog.xmysql.com/tags/Python%E5%9F%BA%E7%A1%80/"/>
+      <category term="python" scheme="https://blog.xmysql.com/tags/python/"/>
     
   </entry>
   
