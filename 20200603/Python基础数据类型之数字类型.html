@@ -54,15 +54,15 @@ var _hmt = _hmt || [];
   <link rel="dns-prefetch" href="https://blog.xmysql.com">
   <title>Python基础数据类型之数字类型 | Charles Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Python基础数据类型之数字类型Python 2.x的整数类型区分int和long。Python 3.x不再区分int和long，统一使用int。 数字类型分为：  int整数类型 float浮点型 complex复数类型   int整数类型在32位机器上，整数的位数为32位，取值范围为-2**31～2**31-1，即-2147483648～2147483647在64位系统上，整数的位数为64位">
+  <meta name="description" content="Python基础数据类型之数字类型Python 2.x的整数类型区分int和long。Python 3.x不再区分int和long，统一使用int。 数字类型分为：  int整数类型 float浮点型 complex复数类型   int整数类型 在32位机器上，整数的位数为32位，取值范围为-2**31～2**31-1，即-2147483648～2147483647 在64位系统上，整数的位数为6">
 <meta name="keywords" content="python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python基础数据类型之数字类型">
 <meta property="og:url" content="https:&#x2F;&#x2F;blog.xmysql.com&#x2F;20200603&#x2F;Python%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B9%8B%E6%95%B0%E5%AD%97%E7%B1%BB%E5%9E%8B.html">
 <meta property="og:site_name" content="Charles Blog">
-<meta property="og:description" content="Python基础数据类型之数字类型Python 2.x的整数类型区分int和long。Python 3.x不再区分int和long，统一使用int。 数字类型分为：  int整数类型 float浮点型 complex复数类型   int整数类型在32位机器上，整数的位数为32位，取值范围为-2**31～2**31-1，即-2147483648～2147483647在64位系统上，整数的位数为64位">
+<meta property="og:description" content="Python基础数据类型之数字类型Python 2.x的整数类型区分int和long。Python 3.x不再区分int和long，统一使用int。 数字类型分为：  int整数类型 float浮点型 complex复数类型   int整数类型 在32位机器上，整数的位数为32位，取值范围为-2**31～2**31-1，即-2147483648～2147483647 在64位系统上，整数的位数为6">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-06-03T03:07:58.039Z">
+<meta property="og:updated_time" content="2020-06-03T03:12:09.197Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Charles Blog" type="application/atom+xml">
@@ -266,15 +266,15 @@ var _hmt = _hmt || [];
       
         <h2 id="Python基础数据类型之数字类型"><a href="#Python基础数据类型之数字类型" class="headerlink" title="Python基础数据类型之数字类型"></a>Python基础数据类型之数字类型</h2><p>Python 2.x的整数类型区分int和long。<br>Python 3.x不再区分int和long，统一使用int。</p>
 <p>数字类型分为：</p>
-<ol>
+<ul>
 <li><code>int</code>整数类型</li>
 <li><code>float</code>浮点型</li>
 <li><code>complex</code>复数类型</li>
-</ol>
-<ol>
-<li><p><code>int</code>整数类型<br>在32位机器上，整数的位数为32位，取值范围为<code>-2**31～2**31-1</code>，即<code>-2147483648～2147483647</code><br>在64位系统上，整数的位数为64位，取值范围为<code>-2**63～2**63-1</code>，即<code>-9223372036854775808～9223372036854775807</code></p>
-<p>Python 2.x的数字类型区分<code>int</code>整型和<code>long</code>长整型</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">   <span class="comment"># Python 2.7</span></span><br><span class="line">   i = <span class="number">10</span>  </span><br><span class="line">   print(type(i))</span><br><span class="line">   <span class="comment"># &lt;type 'int'&gt;  </span></span><br><span class="line">    </span><br><span class="line">   i=<span class="number">10000000000</span>  </span><br><span class="line">   print(type(i))</span><br><span class="line">   <span class="comment"># &lt;type 'long'&gt;  </span></span><br><span class="line">   ```  </span><br><span class="line"></span><br><span class="line"><span class="number">2.</span> `float`浮点型</span><br><span class="line">   浮点数，带小数点的数，精度与机器有关。</span><br><span class="line"></span><br><span class="line">   浮点数示例：</span><br><span class="line">   ```python</span><br><span class="line">   f = <span class="number">12.12</span></span><br><span class="line">   print(type(f))</span><br><span class="line">   </span><br><span class="line">   <span class="comment"># &lt;class 'float'&gt;</span></span><br></pre></td></tr></table></figure>
+</ul>
+<ul>
+<li><p><code>int</code>整数类型<br> 在32位机器上，整数的位数为32位，取值范围为<code>-2**31～2**31-1</code>，即<code>-2147483648～2147483647</code><br> 在64位系统上，整数的位数为64位，取值范围为<code>-2**63～2**63-1</code>，即<code>-9223372036854775808～9223372036854775807</code></p>
+<p> Python 2.x的数字类型区分<code>int</code>整型和<code>long</code>长整型</p>
+ <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">   <span class="comment"># Python 2.7</span></span><br><span class="line">   i = <span class="number">10</span>  </span><br><span class="line">   print(type(i))</span><br><span class="line">   <span class="comment"># &lt;type 'int'&gt;  </span></span><br><span class="line">    </span><br><span class="line">   i=<span class="number">10000000000</span>  </span><br><span class="line">   print(type(i))</span><br><span class="line">   <span class="comment"># &lt;type 'long'&gt;  </span></span><br><span class="line">   ```  </span><br><span class="line"></span><br><span class="line">+ `float`浮点型</span><br><span class="line">   浮点数，带小数点的数，精度与机器有关。</span><br><span class="line"></span><br><span class="line">   浮点数示例：</span><br><span class="line">   ```python</span><br><span class="line">   f = <span class="number">12.12</span></span><br><span class="line">   print(type(f))</span><br><span class="line">   </span><br><span class="line">   <span class="comment"># &lt;class 'float'&gt;</span></span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><p>浮点数精度问题<br>为什么所有支持浮点数运算的编程语言会遇到浮点数精度问题？<br>真正原因在于十进制数与二进制数转换的时候导致的。<br>计算机其实不认识十进制数，它只认识二进制数，当以十进制数进行运算时，计算机需要将使十进制数转换成二进制数，然后进行二进制间的计算。</p>
@@ -312,7 +312,7 @@ var _hmt = _hmt || [];
 </li>
 <li><p><code>complex</code>复数类型</p>
 </li>
-</ol>
+</ul>
 <p><strong><em>未完待续 ……</em></strong></p>
 
       
@@ -461,15 +461,6 @@ var _hmt = _hmt || [];
 
   
 <nav id="article-nav">
-  
-    <a href="/20200603/Python%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%BB%8B%E7%BB%8D-1.html" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Python数据类型介绍
-        
-      </div>
-    </a>
   
   
     <a href="/20200602/Python%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%BB%8B%E7%BB%8D.html" id="article-nav-older" class="article-nav-link-wrap">
