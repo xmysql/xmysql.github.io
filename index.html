@@ -243,6 +243,315 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Python数学模块、数学函数和数学常量" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+        
+        <center><p>
+  
+    <h1 itemprop="name">
+      <a class="article-title_code_ant" href="/20200603/Python%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9D%97%E3%80%81%E6%95%B0%E5%AD%A6%E5%87%BD%E6%95%B0%E5%92%8C%E6%95%B0%E5%AD%A6%E5%B8%B8%E9%87%8F.html">Python数学模块、数学函数和数学常量</a>
+    </h1>
+  
+</p></center>
+        
+        <a href="/20200603/Python%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9D%97%E3%80%81%E6%95%B0%E5%AD%A6%E5%87%BD%E6%95%B0%E5%92%8C%E6%95%B0%E5%AD%A6%E5%B8%B8%E9%87%8F.html" class="archive-article-date">
+  	<time datetime="2020-06-03T07:12:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-03</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Python数学模块、数学函数和数学常量"><a href="#Python数学模块、数学函数和数学常量" class="headerlink" title="Python数学模块、数学函数和数学常量"></a>Python数学模块、数学函数和数学常量</h2><ul>
+<li><p>数学模块</p>
+<ol>
+<li>math模块：提供浮点数的数学运算函数。</li>
+<li>cmath模块：提供复数运算的函数。</li>
+</ol>
+</li>
+<li><p>数学函数</p>
+<ol>
+<li><p>数学函数</p>
+</li>
+<li><p>随机数函数：随机数用于数学、游戏、在安全领域中提高程序的安全性，还经常嵌入算法中提高算法的效率。</p>
+</li>
+<li><p>三角函数</p>
+</li>
+</ol>
+</li>
+<li><p>数学常量</p>
+</li>
+</ul>
+<ul>
+<li><p>数学模块</p>
+<ol>
+<li><p>math模块</p>
+<p>提供浮点数的数学运算函数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">print(dir(math))</span><br><span class="line"><span class="comment"># ['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'copysign', 'cos', 'cosh', 'degrees', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'pi', 'pow', 'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau', 'trunc']</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+</li>
+</ul>
+<ol start="2">
+<li><p>cmath模块</p>
+<p>提供复数运算的函数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> cmath</span><br><span class="line">print(dir(cmath))</span><br><span class="line"><span class="comment"># ['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atanh', 'cos', 'cosh', 'e', 'exp', 'inf', 'infj', 'isclose', 'isfinite', 'isinf', 'isnan', 'log', 'log10', 'nan', 'nanj', 'phase', 'pi', 'polar', 'rect', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau']</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<ul>
+<li><p>数学函数</p>
+<ol>
+<li><p>数学函数</p>
+<table>
+<thead>
+<tr>
+<th align="left">函数</th>
+<th align="left">返回值 ( 描述 )</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">abs(x)</td>
+<td align="left">返回数字的绝对值，如abs(-10) 返回 10</td>
+</tr>
+<tr>
+<td align="left">ceil(x)</td>
+<td align="left">返回数字的上入整数，如math.ceil(4.1) 返回 5</td>
+</tr>
+<tr>
+<td align="left">cmp(x, y)</td>
+<td align="left">如果 x &lt; y 返回 -1, 如果 x == y 返回 0, 如果 x &gt; y 返回 1</td>
+</tr>
+<tr>
+<td align="left">exp(x)</td>
+<td align="left">返回e的x次幂(ex),如math.exp(1) 返回2.718281828459045</td>
+</tr>
+<tr>
+<td align="left">fabs(x)</td>
+<td align="left">返回数字的绝对值，如math.fabs(-10) 返回10.0</td>
+</tr>
+<tr>
+<td align="left">floor(x)</td>
+<td align="left">返回数字的下舍整数，如math.floor(4.9)返回 4</td>
+</tr>
+<tr>
+<td align="left">log(x)</td>
+<td align="left">如math.log(math.e)返回1.0,math.log(100,10)返回2.0</td>
+</tr>
+<tr>
+<td align="left">log10(x)</td>
+<td align="left">返回以10为基数的x的对数，如math.log10(100)返回 2.0</td>
+</tr>
+<tr>
+<td align="left">max(x1, x2,…)</td>
+<td align="left">返回给定参数的最大值，参数可以为序列。</td>
+</tr>
+<tr>
+<td align="left">min(x1, x2,…)</td>
+<td align="left">返回给定参数的最小值，参数可以为序列。</td>
+</tr>
+<tr>
+<td align="left">modf(x)</td>
+<td align="left">返回x的整数部分与小数部分，两部分的数值符号与x相同，整数部分以浮点型表示。</td>
+</tr>
+<tr>
+<td align="left">pow(x, y)</td>
+<td align="left">x**y 运算后的值。</td>
+</tr>
+<tr>
+<td align="left">round(x [,n])</td>
+<td align="left">返回浮点数x的四舍五入值，如给出n值，则代表舍入到小数点后的位数。</td>
+</tr>
+<tr>
+<td align="left">sqrt(x)</td>
+<td align="left">返回数字x的平方根</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>随机数函数</p>
+<p>随机数用于数学、游戏、在安全领域中提高程序的安全性，还经常嵌入算法中提高算法的效率。</p>
+<table>
+<thead>
+<tr>
+<th align="left">函数</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">choice(seq)</td>
+<td align="left">从序列的元素中随机挑选一个元素，比如random.choice(range(10))，从0到9中随机挑选一个整数。</td>
+</tr>
+<tr>
+<td align="left">randrange ([start,] stop [,step])</td>
+<td align="left">从指定范围内，按指定基数递增的集合中获取一个随机数，基数默认值为 1</td>
+</tr>
+<tr>
+<td align="left">random()</td>
+<td align="left">随机生成下一个实数，它在[0,1)范围内。</td>
+</tr>
+<tr>
+<td align="left">seed([x])</td>
+<td align="left">改变随机数生成器的种子seed。如果你不了解其原理，你不必特别去设定seed，Python会帮你选择seed。</td>
+</tr>
+<tr>
+<td align="left">shuffle(lst)</td>
+<td align="left">将序列的所有元素随机排序</td>
+</tr>
+<tr>
+<td align="left">uniform(x, y)</td>
+<td align="left">随机生成下一个实数，它在[x,y]范围内</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>三角函数</p>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>acos(x)</td>
+<td>返回x的反余弦弧度值。</td>
+</tr>
+<tr>
+<td>asin(x)</td>
+<td>返回x的反正弦弧度值。</td>
+</tr>
+<tr>
+<td>atan(x)</td>
+<td>返回x的反正切弧度值。</td>
+</tr>
+<tr>
+<td>atan2(y, x)</td>
+<td>返回给定的 X 及 Y 坐标值的反正切值。</td>
+</tr>
+<tr>
+<td>cos(x)</td>
+<td>返回x的弧度的余弦值。</td>
+</tr>
+<tr>
+<td>hypot(x, y)</td>
+<td>返回欧几里德范数 sqrt(x<em>x + y</em>y)。</td>
+</tr>
+<tr>
+<td>sin(x)</td>
+<td>返回的x弧度的正弦值。</td>
+</tr>
+<tr>
+<td>tan(x)</td>
+<td>返回x弧度的正切值。</td>
+</tr>
+<tr>
+<td>degrees(x)</td>
+<td>将弧度转换为角度,如degrees(math.pi/2) ， 返回90.0</td>
+</tr>
+<tr>
+<td>radians(x)</td>
+<td>将角度转换为弧度</td>
+</tr>
+</tbody></table>
+</li>
+</ol>
+</li>
+<li><p>数学常量</p>
+<table>
+<thead>
+<tr>
+<th align="left">常量</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">pi</td>
+<td align="left">数学常量 pi（圆周率，一般以π来表示）</td>
+</tr>
+<tr>
+<td align="left">e</td>
+<td align="left">数学常量 e，e即自然常数（自然常数）。</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+
+      
+
+
+
+
+  <div class="declare" hidden="hidden"></div>
+
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/python//" class="article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/20200603/Python%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9D%97%E3%80%81%E6%95%B0%E5%AD%A6%E5%87%BD%E6%95%B0%E5%92%8C%E6%95%B0%E5%AD%A6%E5%B8%B8%E9%87%8F.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Python基础数据类型之数字类型" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -265,57 +574,95 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Python基础数据类型之数字类型"><a href="#Python基础数据类型之数字类型" class="headerlink" title="Python基础数据类型之数字类型"></a>Python基础数据类型之数字类型</h2><br/>
-Python 2.x的整数类型区分int和long。
-Python 3.x不再区分int和long，统一使用int。
-<br/>
-数字类型分为：
-+ `int`整数类型
-+ `float`浮点型
-+ `complex`复数类型
-<br/>
-+ `int`整数类型
-   在32位机器上，整数的位数为32位，取值范围为`-2**31～2**31-1`，即`-2147483648～2147483647`
-   在64位系统上，整数的位数为64位，取值范围为`-2**63～2**63-1`，即`-9223372036854775808～9223372036854775807`
+        <h2 id="Python基础数据类型之数字类型"><a href="#Python基础数据类型之数字类型" class="headerlink" title="Python基础数据类型之数字类型"></a>Python基础数据类型之数字类型</h2><p>Python 2.x的整数类型区分int和long。</p>
+<p>Python 3.x不再区分int和long，统一使用int。</p>
+<p>数字类型分为：</p>
+<ol>
+<li><code>int</code>整数类型</li>
+<li><code>float</code>浮点型</li>
+<li><code>complex</code>复数类型</li>
+</ol>
+<ol>
+<li><p><code>int</code>整数类型</p>
+<p>在32位机器上，整数的位数为32位，取值范围为<code>-2**31～2**31-1</code>，即<code>-2147483648～2147483647</code></p>
+<p>在64位系统上，整数的位数为64位，取值范围为<code>-2**63～2**63-1</code>，即<code>-9223372036854775808～9223372036854775807</code></p>
+</li>
+</ol>
+<p>   Python 2.x的数字类型区分<code>int</code>整型和<code>long</code>长整型</p>
+   <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Python 2.7</span></span><br><span class="line">i = <span class="number">10</span>  </span><br><span class="line">print(type(i))</span><br><span class="line"><span class="comment"># &lt;type 'int'&gt;  </span></span><br><span class="line">  </span><br><span class="line">i=<span class="number">10000000000</span>  </span><br><span class="line">print(type(i))</span><br><span class="line"><span class="comment"># &lt;type 'long'&gt;</span></span><br></pre></td></tr></table></figure>
 
-<p>   Python 2.x的数字类型区分<code>int</code>整型和<code>long</code>长整型<br>   <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">   <span class="comment"># Python 2.7</span></span><br><span class="line">   i = <span class="number">10</span>  </span><br><span class="line">   print(type(i))</span><br><span class="line">   <span class="comment"># &lt;type 'int'&gt;  </span></span><br><span class="line">   i=<span class="number">10000000000</span>  </span><br><span class="line">   print(type(i))</span><br><span class="line">   <span class="comment"># &lt;type 'long'&gt;  </span></span><br><span class="line">   ```  </span><br><span class="line">&lt;br/&gt;</span><br><span class="line">+ `float`浮点型</span><br><span class="line">   浮点数，带小数点的数，精度与机器有关。</span><br><span class="line"></span><br><span class="line">   浮点数示例：</span><br><span class="line">   ```python</span><br><span class="line">   f = <span class="number">12.12</span></span><br><span class="line">   print(type(f))</span><br><span class="line">   </span><br><span class="line">   <span class="comment"># &lt;class 'float'&gt;</span></span><br></pre></td></tr></table></figure><br><br/></p>
+
+
+
+
+<ol start="2">
+<li><p><code>float</code>浮点型</p>
+<p>浮点数，带小数点的数，精度与机器有关。</p>
+</li>
+</ol>
+<p>   浮点数示例：</p>
+   <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">f = <span class="number">12.12</span></span><br><span class="line">print(type(f))</span><br><span class="line"></span><br><span class="line"><span class="comment"># &lt;class 'float'&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
 <ul>
-<li><p>浮点数精度问题<br>为什么所有支持浮点数运算的编程语言会遇到浮点数精度问题？<br>真正原因在于十进制数与二进制数转换的时候导致的。<br>计算机其实不认识十进制数，它只认识二进制数，当以十进制数进行运算时，计算机需要将使十进制数转换成二进制数，然后进行二进制间的计算。</p>
-<br/>
-+ 十进制小数转换成二进制数
-  0.1转换成二进制数示例：
-  <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">0.1*2=0.2 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line"><span class="comment"># 接下来会无限循环</span></span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br></pre></td></tr></table></figure>
-  转换成二进制数的结果
-  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0.00011</span> <span class="number">0011.</span>.<span class="number">.0011</span>..<span class="number">.0011</span>...</span><br></pre></td></tr></table></figure>
+<li><p>浮点数精度问题</p>
+<p>为什么所有支持浮点数运算的编程语言会遇到浮点数精度问题？</p>
+<p>真正原因在于十进制数与二进制数转换的时候导致的。</p>
+<p>计算机其实不认识十进制数，它只认识二进制数，当以十进制数进行运算时，计算机需要将使十进制数转换成二进制数，然后进行二进制间的计算。</p>
+</li>
+</ul>
+<pre><code>+ 十进制小数转换成二进制数
+
+  + 0.1转换成二进制数示例：
+
+    <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">0.1*2=0.2 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line"><span class="comment"># 接下来会无限循环</span></span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br></pre></td></tr></table></figure>
+
+  + 转换成二进制数的结果
+
+    <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0.00011</span> <span class="number">0011.</span>.<span class="number">.0011</span>..<span class="number">.0011</span>...</span><br></pre></td></tr></table></figure>
+
   0.1转换成二进制数的结果是无限循环，0.1转换成二进制数后，无法精确到等于十进制数的0.1。由于计算机的存储位数有限制，所以需要存储的二进制位数超过计算机存储位数的最大值，后续的位数会被舍弃，舍弃的原则是“0舍1入”。
 
-<p>  <strong>十进制小数转换成二进制小数的计算方法：</strong>用“乘2取整，顺序排列”法。<br>  用2乘十进制小数，可以得到积，将积的整数部分取出，再用2乘余下的小数部分，又得到一个积，再将积的整数部分取出，以此类推，直到积中的小数部分为零，此时0或1为二进制的最后一位。或者达到所要求的精度为止。然后把取出的整数部分按顺序排列起来，先取的整数作为二进制小数的高位有效位，后取的整数作为低位有效位。</p>
-<p>  0.3转换成二进制数示例：</p>
-  <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">0.3*2=0.6 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line"><span class="comment"># 接下来会无限循环</span></span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br></pre></td></tr></table></figure>
-<p>  转换成二进制数的结果</p>
-  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0.01001</span>..<span class="number">.1001</span>..<span class="number">.1001</span>...</span><br></pre></td></tr></table></figure>
-<br/>
-  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">f1 = <span class="number">0.1</span></span><br><span class="line">f2 = <span class="number">0.2</span></span><br><span class="line">print(f1+f2)</span><br><span class="line"><span class="comment"># 0.30000000000000004</span></span><br><span class="line"></span><br><span class="line">f2 = <span class="number">11.11</span></span><br><span class="line">f3 = <span class="number">12.12</span></span><br><span class="line">print(f2+f3)</span><br><span class="line"><span class="comment"># 23.229999999999997</span></span><br><span class="line"></span><br><span class="line">f4 = <span class="number">10</span></span><br><span class="line">f5 = <span class="number">3</span></span><br><span class="line">print(f4/f5)</span><br><span class="line"><span class="comment"># 3.3333333333333335</span></span><br></pre></td></tr></table></figure>
-</li>
+
+
++ **十进制小数转换成二进制小数的计算方法：**用“乘2取整，顺序排列”法。
+
+  用2乘十进制小数，可以得到积，将积的整数部分取出，再用2乘余下的小数部分，又得到一个积，再将积的整数部分取出，以此类推，直到积中的小数部分为零，此时0或1为二进制的最后一位。或者达到所要求的精度为止。然后把取出的整数部分按顺序排列起来，先取的整数作为二进制小数的高位有效位，后取的整数作为低位有效位。
+
+  + 0.3转换成二进制数示例：
+
+    <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">0.3*2=0.6 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line"><span class="comment"># 接下来会无限循环</span></span><br><span class="line"></span><br><span class="line">0.6*2=1.2 --&gt; 取出整数部分1</span><br><span class="line"></span><br><span class="line">0.2*2=0.4 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.4*2=0.8 --&gt; 取出整数部分0</span><br><span class="line"></span><br><span class="line">0.8*2=1.6 --&gt; 取出整数部分1</span><br></pre></td></tr></table></figure>
+
+  + 转换成二进制数的结果
+
+    <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0.01001</span>..<span class="number">.1001</span>..<span class="number">.1001</span>...</span><br></pre></td></tr></table></figure>
+
+
+
+    <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">f1 = <span class="number">0.1</span></span><br><span class="line">f2 = <span class="number">0.2</span></span><br><span class="line">print(f1+f2)</span><br><span class="line"><span class="comment"># 0.30000000000000004</span></span><br><span class="line"></span><br><span class="line">f2 = <span class="number">11.11</span></span><br><span class="line">f3 = <span class="number">12.12</span></span><br><span class="line">print(f2+f3)</span><br><span class="line"><span class="comment"># 23.229999999999997</span></span><br><span class="line"></span><br><span class="line">f4 = <span class="number">10</span></span><br><span class="line">f5 = <span class="number">3</span></span><br><span class="line">print(f4/f5)</span><br><span class="line"><span class="comment"># 3.3333333333333335</span></span><br></pre></td></tr></table></figure></code></pre><ul>
 <li><p>提供高浮点数精度</p>
 <ol>
-<li><p>使用decimal模块，得到更精确的结果。<br>decimal模块实现的十进制数运算适合会计方面的应用和有高精度要求的应用。</p>
-</li>
-<li><p>使用fractions模块的Fraction函数<br>如果decimal模块还是满足不了精度的要求，可以使用fractions模块。</p>
-</li>
-<li><p>使用decimal模块</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> decimal</span><br><span class="line">f1 = decimal.Decimal(<span class="string">"0.1"</span>)</span><br><span class="line">f2 = decimal.Decimal(<span class="string">"0.2"</span>)</span><br><span class="line">print(f1+f2)</span><br><span class="line"><span class="comment"># 0.3</span></span><br><span class="line"></span><br><span class="line">f1 = decimal.Decimal(<span class="string">"11.11"</span>)</span><br><span class="line">f2 = decimal.Decimal(<span class="string">"12.12"</span>)</span><br><span class="line">print(f1+f2)</span><br><span class="line"><span class="comment"># 23.23</span></span><br><span class="line"></span><br><span class="line">f3 = decimal.Decimal(<span class="string">"10.0"</span>)</span><br><span class="line">f4 = decimal.Decimal(<span class="string">"3"</span>)</span><br><span class="line">print(f3/f4)</span><br><span class="line"><span class="comment"># 3.333333333333333333333333333</span></span><br></pre></td></tr></table></figure>
+<li><p>使用decimal模块，得到更精确的结果。</p>
+<p>decimal模块实现的十进制数运算适合会计方面的应用和有高精度要求的应用。</p>
 </li>
 <li><p>使用fractions模块的Fraction函数</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> fractions <span class="keyword">import</span> Fraction</span><br><span class="line">print(Fraction(<span class="number">10</span>,<span class="number">3</span>))</span><br><span class="line"><span class="comment"># 10/3</span></span><br></pre></td></tr></table></figure>
-
+<p>如果decimal模块还是满足不了精度的要求，可以使用fractions模块。</p>
 </li>
 </ol>
 </li>
 </ul>
-<ul>
+<pre><code>1. 使用decimal模块
+
+   <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> decimal</span><br><span class="line">f1 = decimal.Decimal(<span class="string">"0.1"</span>)</span><br><span class="line">f2 = decimal.Decimal(<span class="string">"0.2"</span>)</span><br><span class="line">print(f1+f2)</span><br><span class="line"><span class="comment"># 0.3</span></span><br><span class="line"></span><br><span class="line">f1 = decimal.Decimal(<span class="string">"11.11"</span>)</span><br><span class="line">f2 = decimal.Decimal(<span class="string">"12.12"</span>)</span><br><span class="line">print(f1+f2)</span><br><span class="line"><span class="comment"># 23.23</span></span><br><span class="line"></span><br><span class="line">f3 = decimal.Decimal(<span class="string">"10.0"</span>)</span><br><span class="line">f4 = decimal.Decimal(<span class="string">"3"</span>)</span><br><span class="line">print(f3/f4)</span><br><span class="line"><span class="comment"># 3.333333333333333333333333333</span></span><br></pre></td></tr></table></figure>
+
+
+
+2. 使用fractions模块的Fraction函数
+
+   <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> fractions <span class="keyword">import</span> Fraction</span><br><span class="line">print(Fraction(<span class="number">10</span>,<span class="number">3</span>))</span><br><span class="line"><span class="comment"># 10/3</span></span><br></pre></td></tr></table></figure></code></pre><ol start="3">
 <li><code>complex</code>复数类型</li>
-</ul>
+</ol>
 <p><strong><em>未完待续 ……</em></strong></p>
 
       
@@ -1480,98 +1827,6 @@ Python 3.x不再区分int和long，统一使用int。
       
         <p class="article-more-link">
           <a class="article-more-a" href="/20200529/PicGo%E9%85%8D%E7%BD%AE%E4%B8%83%E7%89%9B%E5%9B%BE%E5%BA%8A.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-python1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-        
-        <center><p>
-  
-    <h1 itemprop="name">
-      <a class="article-title_code_ant" href="/20191022/python1.html">python1</a>
-    </h1>
-  
-</p></center>
-        
-        <a href="/20191022/python1.html" class="archive-article-date">
-  	<time datetime="2019-10-22T07:08:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-22</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-
-
-
-
-  <div class="declare" hidden="hidden"></div>
-
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/python//" class="article-tag-list-link color2">python</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/20191022/python1.html">展开全文 >></a>
         </p>
       
 
